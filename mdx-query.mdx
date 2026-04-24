@@ -1,0 +1,99 @@
+﻿-- 01) Hiển thị tổng Price theo từng City; loại bỏ City không có dữ liệu (Other - NON EMPTY)
+SELECT
+    {[Measures].[Price]} ON COLUMNS,
+    NON EMPTY [Dim Location].[City].[City].MEMBERS ON ROWS
+FROM [house-purchase-ssas];
+
+
+-- 02) Tổng hợp (roll up) lên mức Country: xem tổng Price theo từng Country (Roll up) (chart)
+SELECT
+    {[Measures].[Price]} ON COLUMNS,
+    NON EMPTY [Dim Location].[Hierarchy].[Country].MEMBERS ON ROWS
+FROM [house-purchase-ssas];
+
+
+-- 03) Đi sâu (drill down) từ Country xuống level con (City) để xem chi tiết Price (Drill down) (groupby)
+SELECT
+    {[Measures].[Price]} ON COLUMNS,
+    NON EMPTY
+        DRILLDOWNLEVEL([Dim Location].[Hierarchy].[City].MEMBERS) ON ROWS
+FROM [house-purchase-ssas];
+
+
+-- 04) Cắt lát (slice): chỉ xét dữ liệu Country = China, rồi xem Satisfaction Score theo Constructed Year (Slice) (matrix)
+SELECT
+    {[Measures].[Satisfaction Score]} ON COLUMNS,
+    [Dim Property].[Constructed Year].[Constructed Year].MEMBERS ON ROWS
+FROM [house-purchase-ssas]
+WHERE ([Dim Location].[Country].&[China]);
+
+
+-- 05) Cắt khối (dice): chỉ xét (China, Australia) và năm 2010–2012, rồi xem tổng Price theo City (Dice)
+SELECT
+    {[Measures].[Price]} ON COLUMNS,
+    NON EMPTY [Dim Location].[City].[City].MEMBERS ON ROWS
+FROM (
+    SELECT
+        {
+            [Dim Location].[Country].&[China],
+            [Dim Location].[Country].&[Australia]
+        } ON 0
+    FROM (
+        SELECT
+            {
+                [Dim Property].[Constructed Year].&[2010]
+              : [Dim Property].[Constructed Year].&[2012]
+            } ON 0
+        FROM [house-purchase-ssas]
+    )
+);
+
+
+-- 06) Lọc City theo điều kiện Measure: lấy các City có tổng Price > 5000000000 (Other - HAVING/Filter by measure)
+SELECT NON EMPTY [Dim Location].[City].[City].MEMBERS
+HAVING [Measures].[Price] > 5000000000 ON 0
+FROM [house-purchase-ssas];
+
+
+-- 07) FILTER: lấy các Constructed Year có Satisfaction Score > 17000, rồi hiển thị Satisfaction Score (Other - FILTER) (groupby)
+SELECT
+    {[Measures].[Satisfaction Score]} ON COLUMNS,
+    NON EMPTY
+        FILTER(
+            [Dim Property].[Constructed Year].[Constructed Year].MEMBERS,
+            [Measures].[Satisfaction Score] > 17000
+        ) ON ROWS
+FROM [house-purchase-ssas];
+
+
+-- 08) TOPCOUNT: lấy Top 3 City có tổng Price cao nhất (Other - TOPCOUNT) (table)
+SELECT
+    TOPCOUNT(
+        [Dim Location].[City].[City].MEMBERS,
+        3,
+        [Measures].[Price]
+    ) ON 0
+FROM [house-purchase-ssas];
+
+
+-- 09) GENERATE + CURRENTMEMBER: với mỗi Constructed Year, lấy Top 3 Property Id theo Price (Other - GENERATE)
+SELECT
+    {[Measures].[Price]} ON COLUMNS,
+    NON EMPTY
+    GENERATE(
+        [Dim Property].[Constructed Year].[Constructed Year].MEMBERS,
+        TOPCOUNT(
+            [Dim Property].[Constructed Year].CurrentMember
+            *
+            [Dim Property].[Property Id].[Property Id].MEMBERS,
+            3,
+            [Measures].[Price]
+        )
+    ) ON ROWS
+FROM [house-purchase-ssas];
+
+-- 10) Pivot (xoay trục): đưa City lên COLUMNS và đặt Price lên ROWS (Pivot)
+SELECT
+    NON EMPTY [Dim Location].[City].[City].MEMBERS ON COLUMNS,
+    {[Measures].[Price]} ON ROWS
+FROM [house-purchase-ssas];

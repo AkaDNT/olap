@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "house-purchase-ssas", "house-purchase-ssas\house-purchase-ssas.dwproj", "{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}.Development|Default.ActiveCfg = Development
+		{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}.Development|Default.Build.0 = Development
+		{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C597D0C2-3D99-446A-AEDF-704BF1CC79EA}
+	EndGlobalSection
+EndGlobal

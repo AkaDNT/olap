@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>house-purchase-ssas</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>aMgfHTOY+4qN55l+Y6QOU+keI1s=12/23/2025 4:29:40 PM12/23/2025 4:29:40 PM</TimeStamp>
+        <ID>
+          <String>House-purchase-SSAS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>bCFwehureAEJPi2v8qAWIorHMGc=12/23/2025 4:29:51 PM12/23/2025 4:29:51 PM</TimeStamp>
+        <ID>
+          <String>House-purchase-SSAS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VYuZrhcrRL2mTjXgSQUedpwlohU=12/23/2025 4:32:09 PM12/23/2025 4:29:57 PM</TimeStamp>
+        <ID>
+          <String>Dim Property</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3dihg/aWFpjE9eKvD8dBLmR1tPg=12/23/2025 4:32:09 PM12/23/2025 4:29:57 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer Financials</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>m9+NVL73Bpfszff1I8KkU2IdhxU=12/23/2025 4:29:57 PM12/23/2025 4:29:57 PM</TimeStamp>
+        <ID>
+          <String>Dim Decision</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CNVb6BLF+jp+1KiQDsU4NP/ZjBI=12/23/2025 4:32:09 PM12/23/2025 4:29:57 PM</TimeStamp>
+        <ID>
+          <String>Dim Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XFfg1L4zsTmn228YKHBVfCDmTVw=12/23/2025 4:29:57 PM12/23/2025 4:29:57 PM</TimeStamp>
+        <ID>
+          <String>Dim Loan Terms</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2gJFC0DqIIbQnIt7U5v8ue6i5DY=12/23/2025 4:32:09 PM12/23/2025 4:29:57 PM</TimeStamp>
+        <ID>
+          <String>Dim Env</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WkG6eCnEQGiRDuQxji8P1Ry5GSI=12/23/2025 4:32:09 PM12/23/2025 4:29:57 PM</TimeStamp>
+        <ID>
+          <String>Fact</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>AcOhn9XFnwfL3aj55FNmd0Dddec=12/24/2025 9:58:05 AM12/23/2025 4:34:03 PMRVOuQUCgYocoAxCtbRZL1SwoLaE=12/23/2025 4:34:03 PM12/23/2025 4:34:03 PM</TimeStamp>
+        <ID>
+          <String>House-purchase-SSAS</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>+VHuE5AoqpQFByMYOa8mODjzFlc=12/23/2025 3:13:57 PM12/23/2025 3:13:57 PM</TimeStamp>
+      <ID>
+        <String>house-purchase-ssas</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-12-24T02:58:22.946667Z</LastDeployed>
+</DeploymentSnapshot>

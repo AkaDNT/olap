@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\House-purchase-SSAS.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|solutionrelative:house-purchase-ssas\\House-purchase-SSAS.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Fact.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|solutionrelative:house-purchase-ssas\\Fact.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Env.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|solutionrelative:house-purchase-ssas\\Dim Env.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Loan Terms.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|solutionrelative:house-purchase-ssas\\Dim Loan Terms.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Location.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|solutionrelative:house-purchase-ssas\\Dim Location.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Decision.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|solutionrelative:house-purchase-ssas\\Dim Decision.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Customer Financials.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|solutionrelative:house-purchase-ssas\\Dim Customer Financials.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Property.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{CE24C04D-3AEF-45B5-9CF3-FA4E02F62DA5}|house-purchase-ssas\\house-purchase-ssas.dwproj|solutionrelative:house-purchase-ssas\\Dim Property.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "House-purchase-SSAS.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\House-purchase-SSAS.cube",
+              "RelativeDocumentMoniker": "house-purchase-ssas\\House-purchase-SSAS.cube",
+              "ToolTip": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\House-purchase-SSAS.cube [Design]",
+              "RelativeToolTip": "house-purchase-ssas\\House-purchase-SSAS.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T09:39:12.958Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fact.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Fact.dim",
+              "RelativeDocumentMoniker": "house-purchase-ssas\\Fact.dim",
+              "ToolTip": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Fact.dim [Design]",
+              "RelativeToolTip": "house-purchase-ssas\\Fact.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T09:31:45.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Env.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Env.dim",
+              "RelativeDocumentMoniker": "house-purchase-ssas\\Dim Env.dim",
+              "ToolTip": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Env.dim [Design]",
+              "RelativeToolTip": "house-purchase-ssas\\Dim Env.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T09:31:40.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Location.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Location.dim",
+              "RelativeDocumentMoniker": "house-purchase-ssas\\Dim Location.dim",
+              "ToolTip": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Location.dim [Design]",
+              "RelativeToolTip": "house-purchase-ssas\\Dim Location.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T09:31:28.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Loan Terms.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Loan Terms.dim",
+              "RelativeDocumentMoniker": "house-purchase-ssas\\Dim Loan Terms.dim",
+              "ToolTip": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Loan Terms.dim [Design]",
+              "RelativeToolTip": "house-purchase-ssas\\Dim Loan Terms.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T09:31:28.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dim Decision.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Decision.dim",
+              "RelativeDocumentMoniker": "house-purchase-ssas\\Dim Decision.dim",
+              "ToolTip": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Decision.dim [Design]",
+              "RelativeToolTip": "house-purchase-ssas\\Dim Decision.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T09:31:26.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dim Customer Financials.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Customer Financials.dim",
+              "RelativeDocumentMoniker": "house-purchase-ssas\\Dim Customer Financials.dim",
+              "ToolTip": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Customer Financials.dim [Design]",
+              "RelativeToolTip": "house-purchase-ssas\\Dim Customer Financials.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T09:31:19.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dim Property.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Property.dim",
+              "RelativeDocumentMoniker": "house-purchase-ssas\\Dim Property.dim",
+              "ToolTip": "C:\\Users\\nhatt\\source\\repos\\house-purchase-ssas\\house-purchase-ssas\\Dim Property.dim [Design]",
+              "RelativeToolTip": "house-purchase-ssas\\Dim Property.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T09:31:08.691Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
